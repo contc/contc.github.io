@@ -13,7 +13,8 @@ body, html {
 	justify-content: center;
 }
 #nav {
-	padding-bottom: 150px;
+	margin-top: 0;
+	padding: 20px 20px 150px 20px;
 }
 #nav-cont {
 	margin-top: 20px;
