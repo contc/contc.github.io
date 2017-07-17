@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Pirata+One|Roboto+Mono:300|Zilla+Slab');
+
+body, html {
+	margin: 0;
+	background-color: #f1f4f5;
+}
+.container {
+	margin-top: 200px;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	align-items: flex;
+	justify-content: center;
+}
+#nav {
+	padding-bottom: 150px;
+}
+#nav-cont {
+	margin-top: 20px;
+	/*position: sticky;*/
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+#nav li {
+	float: right;
+	padding: 20px 20px 10px 20px;
+	text-transform: uppercase;
+	font-family: Roboto Mono;
+	font-size: 15px;
+}
+#nav li a {
+	text-decoration: none;
+	color: #222;
+	transition: color .5s ease;
+}
+#nav li a:hover {
+	color: #ff5722;
+}
+header {
+	text-align: center;
+}
+#logo-cont {
+	float: left !important;
+}
+#logo {
+	font-family: Zilla Slab;
+	font-size: 20px;
+	margin-top: 0;
+	line-height: 0.15;
+}
+.product {
+	float: left;
+	width: 280px;
+	padding: 0 0 20px 20px;
+}
+.product-img  img {
+	max-width: 100%;
+}
+.product-img {
+	transition: all 0.3s ease;
+}
+.product-img:hover {
+	opacity: 0.5;
+}
